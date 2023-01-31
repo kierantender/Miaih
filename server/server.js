@@ -55,5 +55,8 @@ app.post('/', async (req, res) => {
     res.status(500).send(error || 'Something went wrong, best call Anne for help.');
   }
 })
+window.addEventListener("beforeunload", function(event) {
+  conversationHistory = "";
+});
 
 app.listen(5000, () => console.log('AI server started on http://localhost:5000'))
