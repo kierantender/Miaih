@@ -1,20 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;300;400;500;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Albert Sans", sans-serif;
 }
 
 body {
-  background: #343541;
+  background: #ffffff;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #f3f3f3f3;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #eceaea;
 }
 
 .chat {
@@ -67,9 +67,9 @@ body {
 .profile {
   width: 36px;
   height: 36px;
-  border-radius: 5px;
+  border-radius: 0px;
 
-  background: #5436DA;
+  background: #f800e300;
 
   display: flex;
   justify-content: center;
@@ -77,20 +77,21 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: #ffffff00;
 }
 
 .profile img {
-  width: 60%;
-  height: 60%;
+  width: 110%;
+  height: 110%;
   object-fit: contain;
 }
 
 .message {
   flex: 1;
 
-  color: #dcdcdc;
-  font-size: 20px;
+  color: #18171a;
+  font-size: 16
+  px;
 
   max-width: 100%;
   overflow-x: scroll;
@@ -115,9 +116,9 @@ body {
 form {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px;
-  background: #40414F;
+  background: #e5e5e6;
 
   display: flex;
   flex-direction: row;
@@ -127,18 +128,18 @@ form {
 textarea {
   width: 100%;
 
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 18px;
 
   padding: 10px;
   background: transparent;
-  border-radius: 5px;
-  border: none;
-  outline: none;
+  border-radius: 20px;
+  border: 0px; 
+  outline: 0px; outline-style: solid; outline-color: #ab1262;
 }
 
 button {
-  outline: 0;
+  outline: 1px;
   border: 0;
   cursor: pointer;
   background: transparent;
